@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es2019", "esnext.asynciterable", "DOM"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "typeRoots": ["./node_modules/@types"],
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*", "package.json"],
+  "exclude": [
+    ".cache",
+    "acceptance-tests",
+    "build",
+    "coverage",
+    "jest.config.js",
+    "jest",
+    "node_modules",
+    "release.config.js"
+  ]
+}
